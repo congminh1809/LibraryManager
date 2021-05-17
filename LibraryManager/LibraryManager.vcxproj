@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CDocGia.cpp" />
+    <ClCompile Include="CDocGiaTreEM.cpp" />
     <ClCompile Include="LibraryManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CDocGia.h" />
+    <ClInclude Include="CDocGiaTreEM.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
