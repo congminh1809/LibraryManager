@@ -14,6 +14,7 @@ void CDocGia::Input()
 	cout << endl << "Nhap ngay lap the(dd/mm/yyyy): ";
 	getline(cin, ngaylapthe);
 
+	cin.ignore();
 	cout << endl << "Nhap so thang co hieu luc: ";
 	cin >> sothangcohieuluc;
 }
