@@ -16,5 +16,13 @@ void CDocGiaTreEM::Input()
 // phương thức xuất thông tin độc giả trẻ em
 void CDocGiaTreEM::Output()
 {
-	
+	// gọi lại phương thức xuất ở class cha
+	CDocGia::Output();
+	cout << endl << "Ho ten nguoi dai dien: " << hotenNDD;
+}
+
+//phương thức tính tiền
+int CDocGiaTreEM::TinhTienLamThe()
+{
+	return sothangcohieuluc * 5000;
 }

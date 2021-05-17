@@ -140,12 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CDocGia.cpp" />
+    <ClCompile Include="CDocGiaNguoiLon.cpp" />
     <ClCompile Include="CDocGiaTreEM.cpp" />
+    <ClCompile Include="CThuVien.cpp" />
     <ClCompile Include="LibraryManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CDocGia.h" />
+    <ClInclude Include="CDocGiaNguoiLon.h" />
     <ClInclude Include="CDocGiaTreEM.h" />
+    <ClInclude Include="CThuVien.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
