@@ -1,1 +1,2 @@
 #include "CThuVien.h"
+ghj
