@@ -2,17 +2,22 @@
 //
 
 #include <iostream>
-#include"CDocGia.h"
+//#include"CDocGia.h"
 #include"CDocGiaTreEM.h"
+#include"CDocGiaNguoiLon.h"
 using namespace std;
 
 int main()
 {
-    CDocGia x;
+    CDocGiaNguoiLon* x = new CDocGiaNguoiLon;
     cout << endl << "Nhap thong tin: ";
-    x.Input();
-    cout << endl << "Xuat";
-    x.Output();
+    x->Input();
+    cout << endl << "Xuat: ";
+    x->Output();
+    cout << endl;
+    cout << (size_t) x->TinhTienLamThe();
+    cout << endl;
+    cout << endl;
     system("pause");
     return 0;
 }

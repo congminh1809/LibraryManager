@@ -6,15 +6,15 @@
 // phương thức nhập thông tin độc giả
 void CDocGia::Input()
 {
-	cin.ignore();
+	//cin.ignore();
 	cout << endl << "Nhap ho ten doc gia: ";
 	getline(cin, hoten);
 
-	cin.ignore();
+	//cin.ignore();
 	cout << endl << "Nhap ngay lap the(dd/mm/yyyy): ";
 	getline(cin, ngaylapthe);
 
-	cin.ignore();
+	//cin.ignore();
 	cout << endl << "Nhap so thang co hieu luc: ";
 	cin >> sothangcohieuluc;
 }
