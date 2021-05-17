@@ -2,11 +2,16 @@
 //
 
 #include <iostream>
+#include"CDocGia.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!\n";
+    CDocGia x;
+    cout << endl << "Nhap thong tin: ";
+    x.Input();
+    cout << endl << "Xuat";
+    x.Output();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
