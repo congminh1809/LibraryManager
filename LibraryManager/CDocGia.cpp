@@ -23,7 +23,7 @@ void CDocGia::Input()
 void CDocGia::Output()
 {
 	cout << endl << "Ho ten doc gia: " << hoten;
-	cout << endl << "Ngay lap the (dd/mm/yyyy)" << ngaylapthe;
+	cout << endl << "Ngay lap the (dd/mm/yyyy): " << ngaylapthe;
 	cout << endl << "So thang co hieu luc: " << sothangcohieuluc;
 
 }

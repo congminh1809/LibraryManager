@@ -14,7 +14,7 @@ public:
 	void Input();
 	void Output();
 	int TinhTienLamThe(); //phương thưc tính tiền làm thẻ
-	CDocGiaTreEM();
-	~CDocGiaTreEM();
+	//CDocGiaTreEM();
+	//~CDocGiaTreEM();
 };
 

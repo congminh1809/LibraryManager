@@ -12,7 +12,7 @@ protected:
 public:
 	void Input(); //Phương thức nhập thôgn tin độc giả
 	void Output(); //Phương thức xuất thôgn tin độc giả
-	//CDocGia();
-	//~CDocGia();
+	CDocGia();
+	~CDocGia();
 };
 
