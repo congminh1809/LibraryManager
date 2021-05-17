@@ -2,6 +2,7 @@
 
 #include<iostream>
 #include<string>
+#include"CDocGia.h"
 #include"CDocGiaTreEM.h";
 #include"CDocGiaNguoiLon.h"
 #include<vector>
@@ -17,7 +18,7 @@ public:
 	void Input();
 	void Output();
 	int Tinh_Tong_Tien_Lam_The();
-	CThuVien();
-	~CThuVien();
+	//CThuVien();
+	//~CThuVien();
 };
 

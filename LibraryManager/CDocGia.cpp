@@ -6,7 +6,7 @@
 // phương thức nhập thông tin độc giả
 void CDocGia::Input()
 {
-	//cin.ignore();
+	cin.ignore();
 	cout << endl << "Nhap ho ten doc gia: ";
 	getline(cin, hoten);
 
